@@ -208,6 +208,7 @@ namespace epubReader4._0_Dino
                 grid1.Children.Add(btn[i]);
                 btn[i].VerticalAlignment = VerticalAlignment.Stretch;
                 btn[i].HorizontalAlignment = HorizontalAlignment.Stretch;
+
                 btn[i].Width = double.NaN;  //Autoという意味
                 btn[i].Height = double.NaN; //Autoという意味
 
