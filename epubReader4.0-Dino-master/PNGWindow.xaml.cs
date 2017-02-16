@@ -1727,6 +1727,7 @@ namespace epubReader4._0_Dino_master
                 }
             }
 
+
             //imageを保存
             string savePath = captureFileDirectory + "\\" + pageContent[currentPageNum].Replace(epubDirectory + "\\OEBPS\\image\\", "") + "_" + k + ".png";
             CaptureScreen(savePath);
